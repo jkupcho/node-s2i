@@ -1,7 +1,0 @@
-#!/bin/bash
-
-pushd ${HOME}
-if [ -d node_modules ]; then
-    tar cf - node_modules
-fi
-popd
