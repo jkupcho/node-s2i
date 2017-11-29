@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # restore build artifacts
 if [ "$(ls /tmp/s2i/artifacts/ 2>/dev/null)" ]; then
