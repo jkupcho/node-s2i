@@ -1,2 +1,2 @@
-ls -alh
+#!/bin/bash
 npm run start-prod
