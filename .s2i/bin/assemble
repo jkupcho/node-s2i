@@ -1,0 +1,9 @@
+#!/bin/bash
+
+mv /tmp/src/* ./
+
+npm install
+
+npm run build
+
+fix-permissions ./
